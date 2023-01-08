@@ -1,0 +1,40 @@
+nav {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    max-width: 900px;
+    height: 80px;
+    gap: 100px;
+
+
+    @include center;
+
+    h2 {
+        text-transform: capitalize;
+        color: $colorTextWhite;
+        font-family: $font1;
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+
+    ul {
+        @include center;
+    }
+
+    .menuNavbar {
+        gap: 40px;
+
+        li {
+            font-family: $font3;
+            text-transform: uppercase;
+            font-size: 0.7rem;
+
+        }
+    }
+
+    .socials {
+        gap: 10px;
+    }
+}

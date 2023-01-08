@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "font1";
+    src: url(../fonts/Allura/Allura-Regular.ttf);
+}
+
+@font-face {
+    font-family: "font2";
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "font3";
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+$font1: "font1", sans-serif;
+$font2: "font2", sans-serif;
+$font3: "font3", sans-serif;
+
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+:visited {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+/*  color  */
+$colorTextWhite: #fff;
+$colorTextBlack: #000;
+$colorTextCopper: #b36700;
+$colorTextGrey: #ccc;
+
+$colorBgBlack: #000;
+$colorBgWhite: rgb(230, 230, 230);
+$colorBgBlacklight: rgb(29, 29, 29);
+$colorBgGrey: #ccc;
+
+/* Mixins */
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin centerColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background-color: $colorBgBlack;
+}
