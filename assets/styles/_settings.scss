@@ -49,7 +49,7 @@ $colorTextCopper: #b36700;
 $colorTextGrey: #ccc;
 
 $colorBgBlack: #000;
-$colorBgWhite: rgb(230, 230, 230);
+$colorBgWhite: rgb(240, 240, 240);
 $colorBgBlacklight: rgb(29, 29, 29);
 $colorBgGrey: #ccc;
 
@@ -71,4 +71,5 @@ $colorBgGrey: #ccc;
 
 body {
     background-color: $colorBgBlack;
+    font-family: $font3;
 }

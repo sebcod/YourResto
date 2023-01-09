@@ -21,6 +21,16 @@ nav {
 
     ul {
         @include center;
+
+        &>:hover {
+            transform: scale(1.2);
+            transition: 0.2s;
+            cursor: pointer;
+        }
+
+        &>:not(:hover) {
+            transition: 0.2s;
+        }
     }
 
     .menuNavbar {
@@ -35,6 +45,6 @@ nav {
     }
 
     .socials {
-        gap: 10px;
+        gap: 15px;
     }
 }
