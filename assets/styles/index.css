@@ -165,4 +165,82 @@ main .ourStore .left h5 {
 main .ourStore .right {
   width: 50%;
   background: url(../img/store-01.jpg) center/cover;
+}
+main .discover {
+  width: 100%;
+  background: url(../img/bg-menu-01.jpg) center/cover;
+  background-position-y: 500px;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 80px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+main .discover h2 {
+  font-size: 3rem;
+  font-family: "font1", sans-serif;
+  text-transform: capitalize;
+  font-weight: 100;
+  color: #b36700;
+}
+main .discover .img {
+  height: 30px;
+  width: 30px;
+  background: url(../img/ic-plate.png) center/cover;
+}
+main .discover .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-transform: capitalize;
+  font-family: "font3", sans-serif;
+}
+main .discover .menu li {
+  border-bottom: 1px solid #ccc;
+  height: 30px;
+}
+main .discover .menu li:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+main .discover .carte {
+  background-color: rgb(240, 240, 240);
+  color: #000;
+  font-family: "font3", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  border-top: 5px solid #b36700;
+  padding: 20px;
+}
+main .discover .carte li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  border-bottom: 1px dashed #ccc;
+  width: 450px;
+}
+main .discover .carte li img {
+  border-radius: 50%;
+}
+main .discover .carte li .title_ingrediants {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 10px;
+}
+main .discover .carte li .title_ingrediants .ingrediants {
+  text-transform: capitalize;
+}
+main .discover .carte li .prix {
+  padding-right: 10px;
+  color: #b36700;
+  font-weight: bolder;
 }/*# sourceMappingURL=index.css.map */
