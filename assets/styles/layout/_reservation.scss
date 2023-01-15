@@ -1,0 +1,104 @@
+.reservation {
+    display: flex;
+    margin: 50px auto 50px;
+    max-width: 1200px;
+    color: $colorTextWhite;
+
+    .img {
+        width: 30px;
+        height: 30px;
+        background: url(../img/ic-plate.png) center/cover;
+        margin: 20px;
+    }
+
+    .leftPart {
+        @include centerColumn;
+        width: 30%;
+        height: 100%;
+        background-color: $colorBgBlack;
+        outline: dashed 1px $colorBgWhite;
+        outline-offset: -20px;
+        padding: 50px 0 50px;
+
+        h2,
+        h4 {
+            color: $colorTextCopper;
+        }
+
+        h2 {
+            text-transform: capitalize;
+            font-family: $font1;
+            font-weight: 100;
+            font-size: 2rem;
+        }
+
+        h3 {
+            line-height: 0;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            margin: 20px;
+        }
+    }
+
+    .rightPart {
+        @include centerColumn;
+        color: $colorTextBlack;
+        width: 70%;
+        background-color: $colorBgWhite;
+
+        h2 {
+            text-transform: capitalize;
+            font-family: $font1;
+            font-weight: 100;
+            font-size: 3rem;
+            color: $colorTextCopper;
+        }
+
+        h3 {
+            font-weight: bolder;
+            font-size: 3rem;
+            font-family: $font2;
+            line-height: 20px;
+        }
+
+        .img {
+            margin: 50px;
+        }
+
+        form {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+
+            input,
+            select {
+                background-color: $colorBgWhite;
+                border: none;
+                border-bottom: 1px solid $colorBgGrey;
+            }
+
+
+            .btnForm {
+                grid-area: 3 / 1 / 4 / 4;
+
+                .btn {
+                    color: $colorTextWhite;
+                    background-color: $colorBgBlack;
+                    text-transform: uppercase;
+                    font-family: $font2;
+                    padding: 10px 30px;
+                    border-radius: 30px;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

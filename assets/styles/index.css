@@ -37,7 +37,7 @@ h4 {
 /*  color  */
 /* Mixins */
 body {
-  background-color: #000;
+  background-color: rgb(29, 29, 29);
   font-family: "font3", sans-serif;
 }
 
@@ -168,11 +168,11 @@ main .ourStore .right {
 }
 main .discover {
   width: 100%;
-  background: url(../img/bg-menu-01.jpg) center/cover;
-  background-position-y: 500px;
+  background: url(../img/bg-menu-01.jpg) center;
+  background-position-y: 450px;
   background-repeat: no-repeat;
   color: #fff;
-  padding: 80px 0 0 0;
+  padding: 80px 0 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -243,4 +243,99 @@ main .discover .carte li .prix {
   padding-right: 10px;
   color: #b36700;
   font-weight: bolder;
+}
+main .reservation {
+  display: flex;
+  margin: 50px auto 50px;
+  max-width: 1200px;
+  color: #fff;
+}
+main .reservation .img {
+  width: 30px;
+  height: 30px;
+  background: url(../img/ic-plate.png) center/cover;
+  margin: 20px;
+}
+main .reservation .leftPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  background-color: #000;
+  outline: dashed 1px rgb(240, 240, 240);
+  outline-offset: -20px;
+  padding: 50px 0 50px;
+}
+main .reservation .leftPart h2,
+main .reservation .leftPart h4 {
+  color: #b36700;
+}
+main .reservation .leftPart h2 {
+  text-transform: capitalize;
+  font-family: "font1", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+}
+main .reservation .leftPart h3 {
+  line-height: 0;
+  margin-bottom: 20px;
+}
+main .reservation .leftPart h4 {
+  margin: 20px;
+}
+main .reservation .rightPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+  width: 70%;
+  background-color: rgb(240, 240, 240);
+}
+main .reservation .rightPart h2 {
+  text-transform: capitalize;
+  font-family: "font1", sans-serif;
+  font-weight: 100;
+  font-size: 3rem;
+  color: #b36700;
+}
+main .reservation .rightPart h3 {
+  font-weight: bolder;
+  font-size: 3rem;
+  font-family: "font2", sans-serif;
+  line-height: 20px;
+}
+main .reservation .rightPart .img {
+  margin: 50px;
+}
+main .reservation .rightPart form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+main .reservation .rightPart form input,
+main .reservation .rightPart form select {
+  background-color: rgb(240, 240, 240);
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+main .reservation .rightPart form .btnForm {
+  grid-area: 3/1/4/4;
+}
+main .reservation .rightPart form .btnForm .btn {
+  color: #fff;
+  background-color: #000;
+  text-transform: uppercase;
+  font-family: "font2", sans-serif;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+main .reservation .rightPart form .btnForm .btn:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
