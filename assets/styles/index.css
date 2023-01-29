@@ -249,6 +249,7 @@ main .reservation {
   margin: 50px auto 50px;
   max-width: 1200px;
   color: #fff;
+  padding: 0 20px;
 }
 main .reservation .img {
   width: 30px;
@@ -338,4 +339,116 @@ main .reservation .rightPart form .btnForm .btn {
 }
 main .reservation .rightPart form .btnForm .btn:hover {
   cursor: pointer;
+}
+
+.upcoming {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.upcoming h2 {
+  text-transform: capitalize;
+  font-family: "font1", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  color: #b36700;
+}
+.upcoming h3 {
+  color: #fff;
+  font-size: 2rem;
+}
+.upcoming .img {
+  margin: 20px;
+  width: 40px;
+  height: 40px;
+  background: url(../img/ic-plate.png) center/cover;
+}
+.upcoming .grid {
+  display: grid;
+  grid-template-columns: 4fr 2.5fr;
+  grid-template-rows: repeat(2, 0.1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  max-width: 1180px;
+  padding: 30px 20px;
+}
+.upcoming .grid h2 {
+  font-family: "font2", sans-serif;
+  font-size: 1.5rem;
+  color: #000;
+}
+.upcoming .date {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(29, 29, 29);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.upcoming .partRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 30px;
+}
+.upcoming .grey {
+  color: #ccc;
+}
+.upcoming .uppercase {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.upcoming .part1 {
+  grid-area: 1/1/2/2;
+  display: flex;
+  background-color: white;
+}
+.upcoming .part1 .partLeft {
+  width: 250px;
+  height: 250px;
+  background: url(../img/event-01.jpg) center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upcoming .part2 {
+  grid-area: 2/1/3/2;
+  display: flex;
+  background-color: white;
+}
+.upcoming .part2 .partLeft {
+  width: 250px;
+  height: 250px;
+  background: url(../img/event-02.jpg) center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upcoming .part3 {
+  grid-area: 1/2/3/3;
+  background: url(../img/event-03.jpg) center/cover;
+  padding: 20px;
+}
+.upcoming .part3 .bgWhite {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding-bottom: 50px;
+  justify-content: space-between;
 }/*# sourceMappingURL=index.css.map */

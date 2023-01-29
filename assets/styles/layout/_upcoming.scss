@@ -1,0 +1,112 @@
+.upcoming {
+
+    @include centerColumn;
+    padding-bottom: 50px;
+
+    h2 {
+        text-transform: capitalize;
+        font-family: $font1;
+        font-weight: 100;
+        font-size: 2rem;
+        color: $colorTextCopper;
+    }
+
+    h3 {
+        color: $colorTextWhite;
+        font-size: 2rem;
+    }
+
+    .img {
+        margin: 20px;
+        width: 40px;
+        height: 40px;
+        background: url(../img/ic-plate.png) center/cover;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 4fr 2.5fr;
+        grid-template-rows: repeat(2, 0.1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        max-width: 1180px;
+        padding: 30px 20px;
+
+        h2 {
+            font-family: $font2;
+            font-size: 1.5rem;
+            color: $colorTextBlack;
+        }
+    }
+
+    .date {
+        width: 100px;
+        height: 100px;
+        background-color: $colorBgBlacklight;
+        color: $colorTextWhite;
+        @include centerColumn;
+    }
+
+    .partRight {
+        @include centerColumn;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .grey {
+        color: $colorTextGrey;
+    }
+
+    .uppercase {
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    .part1 {
+        grid-area: 1 / 1 / 2 / 2;
+        display: flex;
+        background-color: white;
+
+        .partLeft {
+            width: 250px;
+            height: 250px;
+            background: url(../img/event-01.jpg) center/cover;
+            @include center;
+        }
+
+
+    }
+
+    .part2 {
+        grid-area: 2 / 1 / 3 / 2;
+        display: flex;
+        background-color: white;
+
+        .partLeft {
+            width: 250px;
+            height: 250px;
+            background: url(../img/event-02.jpg) center/cover;
+            @include center;
+        }
+    }
+
+    .part3 {
+        grid-area: 1 / 2 / 3 / 3;
+        ;
+        background: url(../img/event-03.jpg) center/cover;
+        padding: 20px;
+
+        .bgWhite {
+            height: 100%;
+            width: 100%;
+            background-color: white;
+            @include centerColumn;
+            gap: 30px;
+            padding-bottom: 50px;
+            justify-content: space-between;
+        }
+    }
+
+
+}
