@@ -102,4 +102,33 @@
             }
         }
     }
+
+    @media screen and (max-width: 900px) {
+
+        flex-direction: column;
+
+        .leftPart {
+            width: 100%;
+        }
+
+        .rightPart {
+            width: 100%;
+
+
+
+            form {
+                &>* {
+                    padding-bottom: 10px;
+                }
+
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+                gap: 30px;
+            }
+
+            padding-bottom: 10px;
+        }
+    }
+
 }

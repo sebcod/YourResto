@@ -48,4 +48,13 @@
         background: url(../img/store-01.jpg) center/cover;
     }
 
+    @media screen and (max-width: 900px) {
+        .right {
+            display: none;
+        }
+
+        .left {
+            width: 100%;
+        }
+    }
 }

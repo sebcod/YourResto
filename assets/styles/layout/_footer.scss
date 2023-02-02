@@ -2,6 +2,10 @@ footer {
     background: url(../img/bg-footer.jpg) center/cover;
     padding: 0 20px;
 
+    @media screen and (max-width: 900px) {
+        background: none;
+    }
+
     .containerFooter {
         max-width: 1140px;
         display: flex;
@@ -62,6 +66,17 @@ footer {
                         }
                     }
                 }
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+            .partLeft {
+                display: none;
+                width: 0%;
+            }
+
+            .partRight {
+                width: 100%;
             }
         }
     }
