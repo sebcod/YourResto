@@ -12,5 +12,3 @@ https://sebcod-your-resto.netlify.app/
   <img src="assets/img/YourResto.jpg" height="350" alt="Thumbnail Clone Nintendo.fr desktop" title="Your resto">
   <img src="assets/img/YourResto_mobile.jpg" height="350" alt="Thumbnail Clone Nintendo.fr mobile" title="Your resto mobile">
 </p>
-=======
-# Your Resto
