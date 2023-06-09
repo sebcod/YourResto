@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Your resto
 
 https://sebcod-your-resto.netlify.app/
@@ -12,3 +13,6 @@ https://sebcod-your-resto.netlify.app/
   <img src="assets/img/YourResto.jpg" height="350" alt="Thumbnail Clone Nintendo.fr desktop" title="Your resto">
   <img src="assets/img/YourResto_mobile.jpg" height="350" alt="Thumbnail Clone Nintendo.fr mobile" title="Your resto mobile">
 </p>
+=======
+# Your Resto
+>>>>>>> 01d24146acb511eb83f5e58a8ef3f7a6d39c9f39
