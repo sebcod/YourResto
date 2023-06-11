@@ -9,6 +9,6 @@ https://sebcod-your-resto.netlify.app/
 [![Sass](https://img.shields.io/badge/-Sass-000?&logo=Sass&logoColor=CC6699)](https://sass-lang.com)
 
 <p align="center">
-  <img src="assets/img/YourResto.jpg" height="350" alt="Thumbnail Clone Nintendo.fr desktop" title="Your resto">
-  <img src="assets/img/YourResto_mobile.jpg" height="350" alt="Thumbnail Clone Nintendo.fr mobile" title="Your resto mobile">
+  <img src="assets/img/YourResto.jpg" height="350" alt="Thumbnail your resto desktop" title="Your resto">
+  <img src="assets/img/YourResto_mobile.jpg" height="350" alt="Thumbnail your resto mobile" title="Your resto mobile">
 </p>
