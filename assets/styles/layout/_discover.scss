@@ -57,7 +57,7 @@
             justify-content: space-between;
             height: 150px;
             border-bottom: 1px dashed $colorBgGrey;
-            maxwidth: 450px;
+            max-width: 450px;
 
             img {
                 border-radius: 50%;
@@ -87,7 +87,7 @@
         background-position-y: 980px;
 
         .menu {
-            gap: 50px;
+            gap: 20px;
         }
 
         .carte {

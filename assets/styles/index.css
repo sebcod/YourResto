@@ -139,7 +139,13 @@ header h3 {
 }
 @media screen and (max-width: 900px) {
   header h1 {
+    font-size: 2rem;
+  }
+  header h2 {
     font-size: 3rem;
+  }
+  header h3 {
+    font-size: 1rem;
   }
 }
 
@@ -256,7 +262,7 @@ main .discover .carte li {
   justify-content: space-between;
   height: 150px;
   border-bottom: 1px dashed #ccc;
-  maxwidth: 450px;
+  max-width: 450px;
 }
 main .discover .carte li img {
   border-radius: 50%;
@@ -280,7 +286,7 @@ main .discover .carte li .prix {
     background-position-y: 980px;
   }
   main .discover .menu {
-    gap: 50px;
+    gap: 20px;
   }
   main .discover .carte {
     grid-template-columns: repeat(1, 1fr);
@@ -536,6 +542,12 @@ main .HeadPassion .containerWhite {
   gap: 30px;
   padding: 80px;
 }
+@media screen and (max-width: 1200px) {
+  main .HeadPassion .containerWhite {
+    padding: 60px 20px 20px;
+    text-align: justify;
+  }
+}
 main .HeadPassion .containerWhite img {
   width: 100px;
   height: 100px;
@@ -647,4 +659,6 @@ footer .containerFooter .partRight span ul li i {
   footer .containerFooter .partRight {
     width: 100%;
   }
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
